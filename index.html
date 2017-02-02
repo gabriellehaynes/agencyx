@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Agency X</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+
+<body>
+	<div id="container">
+    	<div id="logo"></div>
+    	<div class="navbar"></div>
+    	<div id="home" class="menu" onclick="contentFadeIn()"><h1>Home</h1></div>
+    	<div id="team" class="menu" onclick="pictureFadeIn()"><h1>The Team</h1></div>
+    	<div id="contact" class="menu"><h1>Contact</h1></div>
+   
+        <div id="main">
+        	<div id="content"><p><strong>Spectrum Music Agency Vancouver</strong> offers a full spectrum of music covering everything from classical to neo-psychedelia. And, to answer your question, yes, we even do Nickelback.<br><br>
+
+Spectrum has been in the business of music for 10 years. We work with a plethora of artists from emerging to long standing acts. We pride ourselves in representing the finest musicians! 
+			</p></div>
+            <div id="contentpic"></div>
+            <div id="testimonial1">
+            	<p>"One of the greatest music experiences in business I've ever had!"<br /><br /><em>- Avey Tare</em></p>
+            </div>
+            <div id="testimonial2">
+            	<p>"I had fun <em>and</em> met so many great people. S. Bunny is now one of my closest friends!"<br /><br /><em>- Panda Bear</em></p>
+            </div>
+            <div id="contentpic2"></div>
+    	</div>
+        
+    </div>
+    
+    
+
+
+<script src="js/object.js"></script>
+<script src="js/changecontent.js"></script>
+
+<script>
+$(document).ready(function() {
+		TweenLite.to($('#contentpic'), 2, {alpha: 1,
+		})
+		TweenLite.to($('#logo'), 2, {x: 260,
+		})
+	});
+
+var pictureFadeIn = function () {
+	TweenLite.to($('#picture1'), 2, {alpha: 1,})
+}
+
+var contentFadeIn = function () {
+	TweenLite.to($('#contentpic'), 2, {alpha: 1,})
+}
+
+	
+</script>
+
+</body>
+</html>
