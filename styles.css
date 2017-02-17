@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/bck4.jpg);
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: "Semi Cursive Gut";
+	font-size: 40px;
+}
+
+h2 {
+	font-family: "Source Sans Pro";
+	color: #7d3e3e;
+	font-size: 26px;
+}
+
+h3 {
+	font-family: "Source Sans Pro";
+	color: #7d3e3e;
+	font-size: 18px;
+}
+
+p {
+	font-family:"Source Sans Pro";
+	font-size: 14px;
+	color: #7d3e3e;
+}
+
+
+
+#container {
+	position: relative;
+	width: 950px;
+	height: 600px;
+	margin: 0px auto;
+}
+
+#main {
+	position: absolute;
+  	width: 950px;
+	height: 700px;
+	background-color: #fffcb5;
+	top: 272px;
+	overflow: auto;
+}
+
+#logo {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 459px;
+	height: 95px;
+	background-image: url(../images/logo2.png);
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	position: absolute;
+	background-image: url(../images/navbar2.png);
+	top: 200px;
+	left: 65px;
+	width: 830px;
+	height: 72px;
+}
+
+#home {
+	position: absolute;
+	width: 90px;
+	height: 33px;
+	top: 190px;
+	left: 170px;
+	cursor: pointer;
+	color: #fcfacf;
+}
+
+#home:hover {
+	color: #d1ff54;
+}
+
+#team {
+	position: absolute;
+	width: 188px;
+	height: 33px;
+	top: 190px;
+	left: 415px;
+	cursor: pointer;
+	color: #fcfacf;
+}
+
+#team:hover {
+	color: #d1ff54;
+}
+
+#contact {
+	position: absolute;
+	width: 188px;
+	height: 33px;
+	top: 190px;
+	left: 705px;
+	cursor: pointer;
+	color: #fcfacf;
+}
+
+#contact:hover {
+	color: #d1ff54;
+}
+
+/*------------home------------*/
+
+#content {
+	position: absolute;
+	width: 840px;
+	height: 100px;
+	top: 40px;
+	left: 55px;
+	font-family:"Source Sans Pro";
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+#contentpic {
+	position: absolute;
+	width: 840px;
+	height: 600px;
+	margin-bottom: 30px;
+	top: 240px;
+	left: 55px;
+	background-image: url(../images/main.jpg);
+	opacity: 0;
+}
+
+#testimonial1 {
+	position: absolute;
+	top: 860px;
+	left: 55px;
+	width: 400px;
+	height: 200px;
+}
+
+#testimonial2 {
+	position: absolute;
+	top: 860px;
+	left: 485px;
+	width: 400px;
+	height: 200px;
+}
+
+#contentpic2 {
+	position: absolute;
+	top: 970px;
+	left: 55px;
+	width: 840px;
+	height: 553px;
+	background-image: url(../images/bibio.jpg);
+	padding-bottom: 30px;
+	background-repeat: no-repeat;
+}
+
+/*------------the team------------*/
+
+#picture1 {
+	position: absolute;
+	width: 553px;
+	height: 474px;
+	top: 30px;
+	left: 365px;
+	background-image: url(../images/bunny.jpg);
+	opacity: 0;
+}
+
+#picture2 {
+	position: absolute;
+	width: 553px;
+	height: 474px;
+	top: 530px;
+	left: 365px;
+	background-image: url(../images/monster.jpg);
+}
+
+#picture3 {
+	position: absolute;
+	width: 553px;
+	height: 474px;
+	top: 1030px;
+	left: 365px;
+	background-image: url(../images/derek.jpg);
+	padding-bottom: 30px;
+	background-repeat: no-repeat;
+}
+
+#picture1heading {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	width: 120px;
+	height: 30px;
+}
+
+#picture1subheading {
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	width: 200px;
+	height: 20px;
+}
+
+#picture1content {
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	width: 300px;
+	height: 400px;
+	text-align: right;
+}
+
+#picture2heading {
+	position: absolute;
+	left: 30px;
+	top: 520px;
+	width: 180px;
+	height: 30px;
+}
+
+#picture2subheading {
+	position: absolute;
+	top: 560px;
+	left: 30px;
+	width: 200px;
+	height: 20px;
+}
+
+#picture2content {
+	position: absolute;
+	top: 605px;
+	left: 30px;
+	width: 300px;
+	height: 400px;
+	text-align: right;
+}
+
+#picture3heading {
+	position: absolute;
+	top: 1020px;
+	left: 30px;
+	width: 180px;
+	height: 30px;
+}
+
+#picture3subheading {
+	position: absolute;
+	top: 1060px;
+	left: 30px;
+	width: 200px;
+	height: 30px;
+}
+
+#picture3content {
+	position: absolute;
+	top: 1100px;
+	left: 30px;
+	width: 300px;
+	height: 400px;
+	text-align: right;
+}
+
+/*-----------contact-------------*/
+
+#contactinfo {
+	position: absolute;
+	top: 30px;
+	left: 340px;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+}
+
+#map {
+	position: absolute;
+	top: 350px;
+	left: 70px;
+	width: 811px;
+	height: 493px;
+	background-image: url(../images/map.jpg);
+	padding-bottom: 30px;
+	background-repeat: no-repeat;
+}
+
+#sunaraw {
+	position: absolute;
+	top: 60px;
+	left: 160px;
+	width: 638px;
+	height: 272px;
+	background-image:url(../images/sunaraw.jpg);
+}
